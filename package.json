@@ -1,0 +1,23 @@
+{
+  "name": "huskydemo",
+  "version": "1.0.0",
+  "description": "this is a demo to test husky used in a frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guardianf/huskyDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guardianf/huskyDemo/issues"
+  },
+  "homepage": "https://github.com/guardianf/huskyDemo#readme",
+  "devDependencies": {
+    "husky": "^6.0.0"
+  }
+}
