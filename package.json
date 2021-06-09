@@ -18,6 +18,17 @@
   },
   "homepage": "https://github.com/guardianf/huskyDemo#readme",
   "devDependencies": {
-    "husky": "^6.0.0"
+    "husky": "^4.3.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo pre-commit",
+      "prepare-commit-msg": "echo prepare-commit-msg",
+      "commit-msg": "echo commit-msg",
+      "post-commit": "echo post-commit"
+    }
+  },
+  "dependencies": {
+    "npm": "^7.16.0"
   }
 }
